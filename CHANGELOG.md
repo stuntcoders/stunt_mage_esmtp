@@ -6,3 +6,4 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Module files
 - Modman file
+- Readme file
