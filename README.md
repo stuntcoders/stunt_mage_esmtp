@@ -10,34 +10,16 @@ Module supports multiple authentication types:
 * Plain
 * CRAM-MD5
 
-Optinally *SSL* or *TLS* encription can be used.
+Optinally *SSL* or *TLS* encryption can be used.
 
 ![System config](https://s3-eu-west-1.amazonaws.com/stcd/stunt_mage_esmtp/esmtp-system-config.png)
 
 ### Sample configuration
 
-* Sendgrid
-    * Host: _smtp.sendgrid.com_
-    * Port: _587_
-    * Auth type:  _Login_
-    * Username: _Username_
-    * Password: _Password_
-    * Encription: _TLS_
-
-* Mailjet
-    * Host: _in-v3.mailjet.com_
-    * Port: 465
-    * Auth type:  _Login_
-    * Username: _Api ley_
-    * Password: _Api secret_
-    * Encription: _SSL_
-
-* Mandrill
-    * Host: _smtp.mandrillapp.com_
-    * Port: _587_
-    * Auth type:  _Login_
-    * Username: _Username_
-    * Password: _Password_
-    * Encription: _TLS_
+|              | Host                 | Port | Username   | Password     | Encryption |
+|--------------|----------------------|------|------------|--------------|------------|
+| **SendGrid** | smtp.sendgrid.com    | 587  | _Username_ | _Password_   | TLS        |
+| **MailJet**  | in-v3.mailjet.com    | 465  | _Api key_  | _Api secret_ | SSL        |
+| **Mandrill** | smtp.mandrillapp.com | 587  | _Username_ | _Password_   | TLS        |
 
 Copyright StuntCoders — [Start Your Online Store Now](https://stuntcoders.com/)
