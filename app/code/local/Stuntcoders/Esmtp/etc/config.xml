@@ -23,27 +23,6 @@
             </stuntcoders_esmtp>
         </helpers>
     </global>
-    <adminhtml>
-        <acl>
-            <resources>
-                <admin>
-                    <children>
-                        <system>
-                            <children>
-                                <config>
-                                    <children>
-                                        <stuntcoders_esmtp>
-                                            <title>Esmtp</title>
-                                        </stuntcoders_esmtp>
-                                    </children>
-                                </config>
-                            </children>
-                        </system>
-                    </children>
-                </admin>
-            </resources>
-        </acl>
-    </adminhtml>
     <default>
         <stuntcoders_esmtp>
             <general>
