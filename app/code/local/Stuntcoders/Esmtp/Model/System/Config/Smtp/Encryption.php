@@ -1,6 +1,6 @@
 <?php
 
-class Stuntcoders_Esmtp_Model_System_Config_Smtp_Encription
+class Stuntcoders_Esmtp_Model_System_Config_Smtp_Encryption
 {
     public function toOptionArray()
     {

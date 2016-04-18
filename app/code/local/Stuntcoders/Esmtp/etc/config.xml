@@ -50,7 +50,7 @@
                 <enabled>0</enabled>
                 <port>25</port>
                 <auth>none</auth>
-                <encription>none</encription>
+                <encryption>none</encryption>
             </general>
         </stuntcoders_esmtp>
     </default>

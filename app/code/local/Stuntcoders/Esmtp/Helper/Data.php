@@ -8,7 +8,7 @@ class Stuntcoders_Esmtp_Helper_Data extends Mage_Core_Helper_Abstract
     const XML_PATH_ESMTP_USERNAME = 'stuntcoders_esmtp/general/username';
     const XML_PATH_ESMTP_PASSWORD = 'stuntcoders_esmtp/general/password';
     const XML_PATH_ESMTP_AUTH = 'stuntcoders_esmtp/general/auth';
-    const XML_PATH_ESMTP_ENCRIPTION = 'stuntcoders_esmtp/general/encription';
+    const XML_PATH_ESMTP_ENCRYPTION = 'stuntcoders_esmtp/general/encryption';
 
     public function isEnabled()
     {
@@ -42,8 +42,8 @@ class Stuntcoders_Esmtp_Helper_Data extends Mage_Core_Helper_Abstract
 
     public function getEncriptionType()
     {
-        $encription = Mage::getStoreConfig(self::XML_PATH_ESMTP_ENCRIPTION);
-        return !empty($encription) ? $encription : null;
+        $encryption = Mage::getStoreConfig(self::XML_PATH_ESMTP_ENCRYPTION);
+        return !empty($encryption) ? $encryption : null;
     }
 
     public function getSmtpConfig()
