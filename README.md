@@ -23,6 +23,7 @@ Optinally *SSL* or *TLS* encription can be used.
     * Username: _Username_
     * Password: _Password_
     * Encription: _TLS_
+
 * Mailjet
     * Host: _in-v3.mailjet.com_
     * Port: 465
@@ -30,7 +31,8 @@ Optinally *SSL* or *TLS* encription can be used.
     * Username: _Api ley_
     * Password: _Api secret_
     * Encription: _SSL_
-* Sendgrid
+
+* Mandrill
     * Host: _smtp.mandrillapp.com_
     * Port: _587_
     * Auth type:  _Login_
