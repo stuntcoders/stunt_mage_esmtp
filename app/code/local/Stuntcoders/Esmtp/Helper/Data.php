@@ -42,8 +42,8 @@ class Stuntcoders_Esmtp_Helper_Data extends Mage_Core_Helper_Abstract
 
     public function getEncriptionType()
     {
-        $sslType = Mage::getStoreConfig(self::XML_PATH_ESMTP_ENCRIPTION);
-        return !empty($sslType) ? $sslType : null;
+        $encription = Mage::getStoreConfig(self::XML_PATH_ESMTP_ENCRIPTION);
+        return !empty($encription) ? $encription : null;
     }
 
     public function getSmtpConfig()
