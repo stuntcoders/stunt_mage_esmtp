@@ -40,7 +40,7 @@ class Stuntcoders_Esmtp_Helper_Data extends Mage_Core_Helper_Abstract
         return Mage::getStoreConfig(self::XML_PATH_ESMTP_AUTH);
     }
 
-    public function getEncriptionType()
+    public function getEncryptionType()
     {
         $encryption = Mage::getStoreConfig(self::XML_PATH_ESMTP_ENCRYPTION);
         return !empty($encryption) ? $encryption : null;
@@ -50,7 +50,7 @@ class Stuntcoders_Esmtp_Helper_Data extends Mage_Core_Helper_Abstract
     {
         $config = array(
             'port' => $this->getPort(),
-            'ssl' => $this->getEncriptionType(),
+            'ssl' => $this->getEncryptionType(),
         );
 
         if ($authType = $this->getAuthType()) {
